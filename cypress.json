@@ -1,0 +1,12 @@
+{
+  "testFiles": "**/*.feature",
+  "ignoreTestFiles": [
+    "*.js",
+    "*.ts",
+    "*.md"
+  ],
+  "projectId": "znjum5",
+  "experimentalStudio": true,
+  "experimentalSessionSupport": true,
+  "baseUrl": "https://vfs2frontendtest2.azurewebsites.net/vfs"
+}

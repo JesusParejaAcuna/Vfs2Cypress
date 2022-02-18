@@ -1,0 +1,1 @@
+sqlcmd -U vsw4@vsw4 -S vsw4sql.database.windows.net -P Salesware01 -d VFS2TEST2 -Q "exec vfstrns.ResetDb N'ACT_Inf_Activity ACT_Inf_Task';"
