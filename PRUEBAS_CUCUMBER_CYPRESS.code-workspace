@@ -2,6 +2,10 @@
 	"folders": [
 		{
 			"path": "."
+		},
+		{
+			"name": "Vfs2Cypress",
+			"path": "Vfs2Cypress"
 		}
 	],
 	"settings": {}
