@@ -7,7 +7,7 @@ const closeVFSSession = 'sqlcmd -U vsw4@vsw4 -S vsw4sql.database.windows.net -P 
 Before(() => { 
     // Caching session when logging in via page visit
     cy.session(username, () => {
-    cy.exec(closeVFSSession)
+    cy.exec(closeVFSSession) 
     cy.visit('/')
     cy.get('[data-qa-id=input]').type(username)
     cy.get('[data-qa-id=button]').contains('Siguiente').click()
